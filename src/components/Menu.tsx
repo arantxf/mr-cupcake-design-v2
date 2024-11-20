@@ -46,7 +46,7 @@ const Menu = () => {
               {sidebarOpen && (
                 <button
                   onClick={toggleSidebar}
-                  className="absolute top-8 left-[calc(100%-50px)] transform bg-transparent border-none cursor-pointer"
+                  className="absolute top-8 right-8 transform border-none cursor-pointer z-50"
                 >
                   <Image
                     src="/close-arrow.svg"
