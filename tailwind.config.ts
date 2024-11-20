@@ -1,3 +1,4 @@
+import { Questrial } from "next/font/google";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -8,6 +9,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        Questrial: ['Questrial', 'sans-serif'],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
